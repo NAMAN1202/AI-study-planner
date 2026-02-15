@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { LayoutDashboard, BookOpen, Calendar, Settings, Plus, BrainCircuit, Search, MoreVertical } from 'lucide-react';
 
 // IMPORTANT: Replace this with your backend URL after you deploy the backend
-const BACKEND_URL = "http://localhost:5000"; 
+const BACKEND_URL = "https://ai-study-planner-1-rthf.onrender.com"; 
 
 export default function App() {
   const [notes, setNotes] = useState([]);
@@ -89,3 +89,4 @@ function NavItem({ icon, label, active = false }) {
     </div>
   );
 }
+
